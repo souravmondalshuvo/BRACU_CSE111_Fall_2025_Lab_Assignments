@@ -47,8 +47,8 @@ public class Concert {
         System.out.println("Venue: " + venue);
         System.out.println("Showtime: " + show_time);
         
-        System.out.println("Artists: ");
-        for(int i = 0; i < artists.length; i++) {
+        System.out.println("Artist: ");
+        for(int i = 0; i < artist_count; i++) {
             System.out.println("-" + artists[i]);
         }
 
