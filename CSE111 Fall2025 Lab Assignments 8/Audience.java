@@ -14,7 +14,7 @@ public class Audience {
         System.out.println(name + " bought 1 ticket(s) in Zone " + zone);
         concert.buyTicket(zone);
     }
-
+ 
     public void buyConcertTicket(VIPConcert concert) {
         System.out.println(name + " bought 1 ticket(s) in Zone VIP");
         concert.buyTicket();
