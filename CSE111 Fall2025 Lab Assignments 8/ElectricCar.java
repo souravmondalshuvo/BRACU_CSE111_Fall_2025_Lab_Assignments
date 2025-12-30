@@ -1,3 +1,5 @@
+//HomeWorkTask04
+
 public class ElectricCar extends Vehicle {
     
     public int battery_capacity;
