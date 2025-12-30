@@ -12,7 +12,7 @@ public class Employee {
     public double getBaseSalary() {
         return baseSalary;
     }
-
+ 
     public void setBaseSalary(double baseSalary) {
         this.baseSalary = baseSalary;
     }

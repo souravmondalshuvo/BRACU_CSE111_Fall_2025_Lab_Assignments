@@ -12,7 +12,7 @@ public class Manager extends Employee {
     public void calculateSalary() {
 
     }
-
+ 
     public void requestIncrement(double amount) {
 
         if(getHoursWorked() > 100) {

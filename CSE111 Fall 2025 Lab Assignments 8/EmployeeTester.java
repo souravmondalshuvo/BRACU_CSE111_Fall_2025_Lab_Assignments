@@ -10,7 +10,7 @@ Adds $700 to the base salary if the developer works with Java programming langua
 
 Driver Code and Parent Class 
 public class Employee {
-    public String name;
+    public String name; 
     private double baseSalary;
     private int hoursWorked;
 

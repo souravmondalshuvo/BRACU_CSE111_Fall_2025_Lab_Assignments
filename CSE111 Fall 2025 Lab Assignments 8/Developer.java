@@ -10,7 +10,7 @@ public class Developer extends Employee {
     public void calculateSalary() {
 
     }
-
+ 
     @Override
     public void displayInfo() {
         super.displayInfo();
