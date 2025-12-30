@@ -1,6 +1,6 @@
 /*
 Task 2
-
+ 
 You are given the Audience class. You need to design the Concert (Parent) and VIPConcert (Child) classes so that the following tester code generates the desired output.
 Hint: Assume a maximum of 5 artists can be added to a concert. Ticket Pricing:
 Zone A: 500 per ticket

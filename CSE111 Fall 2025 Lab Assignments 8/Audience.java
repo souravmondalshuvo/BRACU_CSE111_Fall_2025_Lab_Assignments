@@ -4,7 +4,7 @@ public class Audience {
     public Audience(String name) {
         this.name = name;
     }
-
+ 
     public void buyConcertTicket(Concert concert, String zone, int quantity) {
         System.out.println(name + " bought " + quantity + " ticket(s) in Zone " + zone);
         concert.buyTicket(zone, quantity);
