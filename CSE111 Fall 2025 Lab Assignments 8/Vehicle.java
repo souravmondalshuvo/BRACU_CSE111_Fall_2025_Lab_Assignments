@@ -10,7 +10,7 @@ public class Vehicle {
         this.sold = false;
         this.vehicleId = "";
     }
-
+ 
     public void vehicleDetail() {
         System.out.println("Model: " + model + ", Price: $" + price);
         System.out.print("Status: ");

@@ -1,4 +1,4 @@
-public class Car extends Vehicle {
+public class Car extends Vehicle { 
     
     public int seat;
     public static int car_counter;

@@ -1,6 +1,6 @@
 /*
 Task 4
-
+ 
 Design the Car and ElectricCar classes so that the following output is produced. The ElectricCar class and Car class should inherit from the Vehicle class.
 
 Driver Code and Parent Class 

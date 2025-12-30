@@ -1,4 +1,4 @@
-//HomeWorkTask04
+//HomeWorkTask04 
 
 public class ElectricCar extends Vehicle {
     
