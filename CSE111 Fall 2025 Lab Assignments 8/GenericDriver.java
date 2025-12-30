@@ -14,7 +14,7 @@ public class GenericDriver {
     public String getName() {
         return name;
     }
-
+ 
     public void hasSafetyTraining() {
         System.out.println("All drivers must have safety training.");
     }

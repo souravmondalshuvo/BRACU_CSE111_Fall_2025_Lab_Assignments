@@ -1,4 +1,4 @@
-public class CarDriver extends GenericDriver {
+public class CarDriver extends GenericDriver { 
     
     public static String[] restrictedAreas = new String[0];
 
