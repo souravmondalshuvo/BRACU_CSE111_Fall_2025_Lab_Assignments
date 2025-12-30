@@ -3,7 +3,7 @@ public class Moth extends Caterpillar {
     public Moth(String food, int age) {
         super(food, age);
     }
-
+ 
     @Override
     public void transform() {
         energy -= 2.5;

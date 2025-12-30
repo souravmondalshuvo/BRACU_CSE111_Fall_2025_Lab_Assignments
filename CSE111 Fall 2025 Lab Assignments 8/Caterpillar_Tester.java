@@ -1,5 +1,5 @@
 /*
-Task 1
+Task 1 
 
 Implement the design of the  Butterfly class and the Moth class so that these classes extend from the Caterpillar class and generate the output as follows.
 Butterfly loses 5 units of energy due to flying and gains 5 energy units per food amount

@@ -13,7 +13,7 @@ public class Caterpillar {
         energy += 1;
         System.out.println("Caterpillar ate 1 unit of food");
     }
-
+ 
     public void eat(int amount) {
         energy += amount;
         System.out.println("Caterpillar ate " + amount + " units of food");
