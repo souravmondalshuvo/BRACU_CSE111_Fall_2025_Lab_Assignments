@@ -145,3 +145,99 @@ public class UpsideDown extends Hawkins {
         }
     }
 }
+
+//HomeWorkTask03
+
+public class Garage {
+ 
+    public Car[] cars;
+    public Bike[] bikes;
+    public int car_count;
+    public int bike_count;
+
+    public Garage(int car_capacity, int bike_capacity) {
+        cars = new Car[car_capacity];
+        bikes = new Bike[bike_capacity];
+
+        System.out.println("Welcome to the Garage!");
+        System.out.println("Car Capacity: " + car_capacity);
+        System.out.println("Bike Capacity: " + bike_capacity);
+    }
+
+    public void addVehicle(Vehicle vehicle) {
+
+        if(vehicle instanceof Car) {
+            if(car_count < cars.length) {
+                cars[car_count] = (Car) vehicle;
+                System.out.println("A " + vehicle.getBrand() + " CAR has been added to the Garage");
+                car_count++;
+            } else {
+                System.out.println("Can't add more Cars! Capacity: " + cars.length);
+            }
+        } else if(vehicle instanceof Bike) {
+            if(bike_count < bikes.length) {
+                bikes[bike_count] = (Bike) vehicle;
+                System.out.println("A " + vehicle.getBrand() + " BIKE has been added to the Garage");
+                bike_count++;
+            } else {
+                System.out.println("Can't add more Bikes! Capacity: " + bikes.length);
+            }
+        }
+    }
+}
+
+public class Bike extends Vehicle {
+    
+    public String model;
+    public boolean SideCar;
+
+    public Bike(String brand, String model, int year, int wheels, boolean SideCar) {
+        super(brand, year);
+        this.model = model;
+        this.SideCar = SideCar;
+        setWheels(wheels);
+    }
+
+    public void doAWheelie() {
+
+        if(SideCar) {
+            System.out.println("Wheelie Failed. " + getBrand() + ":" + model + " has SideCar");
+        } else {
+            System.out.println(getBrand() + ":" + model + " is doing Wheelie!!");
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "Bike " + super.toString() + ", Model: " + model + ", SideCar: " + SideCar;
+    }
+}
+
+public class Car extends Vehicle {
+    
+    public String model;
+    public int door;
+    public boolean auto_pilot;
+
+    public Car(String brand, String model, int year, int door, int wheels, boolean auto_pilot) {
+        super(brand, year);
+        this.model = model;
+        this.door = door;
+        this.auto_pilot = auto_pilot;
+        setWheels(wheels);
+    }
+
+    public void startAutoPilot() {
+
+        if(auto_pilot) {
+            System.out.println(getBrand() + ":" + model + " AutoPilot Started");
+        } else {
+            System.out.println(getBrand() + ":" + model + " has NO AutoPilot");
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "Car " + super.toString() + ", Model: " + model + ", Doors: " + door + ", AI: " + auto_pilot;
+    }
+}
