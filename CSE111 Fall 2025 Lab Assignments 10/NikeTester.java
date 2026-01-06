@@ -76,7 +76,7 @@ Nike Bangladesh Status:
 Branches Opened: 2
 Currently Stocked: Jordan: 1320, Cortez: 360, Kobe: 230
 Sold: 1440
-==========11==========
+==========11========== 
 Nike Chittagong GEC outlet:
 Products Currently Stocked: Jordan: 680, Cortez: 250, Kobe: 30
 Sold: 590
