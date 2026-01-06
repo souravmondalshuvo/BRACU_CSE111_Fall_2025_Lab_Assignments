@@ -9,11 +9,13 @@ public class Defender extends Football {
         this.interceptions = interceptions;
     }
 
+    @Override
     public void calculatePerformance() {
         performance = (double) interceptions / tackles;
         System.out.println("Performance: " + performance);
     }
 
+    @Override
     public void display() {
         super.display();
         System.out.println("Tackles: " + tackles);
