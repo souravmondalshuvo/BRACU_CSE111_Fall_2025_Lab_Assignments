@@ -21,13 +21,13 @@ public class NikeBD {
     public void restockProducts(String product_name, int amount) {
 
         if(product_name.equals("Jordan")) {
-            this.branch_name += amount;
+            this.jordan_branch += amount;
             total_jordan += amount;
         } else if(product_name.equals("Cortez")) {
-            this.branch_name += amount;
+            this.cortez_branch += amount;
             total_cortez += amount;
         } else if(product_name.equals("Kobe")) {
-            this.branch_name += amount;
+            this.kobe_branch += amount;
             total_kobe += amount;
         }
     }
@@ -51,6 +51,9 @@ public class NikeBD {
             this.kobe_branch -= amount;
             total_kobe -= amount;
         }
+
+        this.sold_branch += amount;
+        total_sold += amount;
     }
 
     public void productSold(String product_1, int amount_1, String product_2, int amount_2) {
