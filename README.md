@@ -22,6 +22,7 @@ Each folder corresponds to a specific lab assignment:
 ```text
 CSE111_Fall_2025_Lab_Assignments/
 ├── CSE111 Fall 2025 Lab Assignments 1/
+├── CSE111 Fall 2025 Lab Assignments 10/
 ├── CSE111 Fall 2025 Lab Assignments 2/
 ├── CSE111 Fall 2025 Lab Assignments 3/
 ├── CSE111 Fall 2025 Lab Assignments 4/
@@ -30,7 +31,6 @@ CSE111_Fall_2025_Lab_Assignments/
 ├── CSE111 Fall 2025 Lab Assignments 7/
 ├── CSE111 Fall 2025 Lab Assignments 8/
 ├── CSE111 Fall 2025 Lab Assignments 9/
-├── CSE111 Fall 2025 Lab Assignments 10/
 ├── .gitignore
 ├── LICENSE
 └── README.md
