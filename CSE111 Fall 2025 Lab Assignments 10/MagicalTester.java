@@ -38,7 +38,7 @@ public class MagicalTester {
     fawkes.regenerate();
   }
 }
-
+ 
 Output
 Name: Drake
 Age: 500
